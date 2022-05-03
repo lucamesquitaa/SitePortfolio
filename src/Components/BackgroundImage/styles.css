@@ -1,0 +1,8 @@
+.BackgroundImage{
+    position: static;
+    margin-top: 0;
+}
+
+.BackgroundImage img{
+    width: 100%;
+}
