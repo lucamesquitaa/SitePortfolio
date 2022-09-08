@@ -1,5 +1,6 @@
 .Header{
     position: sticky;
+    transition: all .3s;
     top: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;

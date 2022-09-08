@@ -16,9 +16,8 @@ export function Home() {
   },[])
     return(
         <div className='Home'>
-            <img className='imgNotebook' src='comp1.jpg' alt='Imagem de um notebook'/>
-            <h1 className='HomeTitle'>Bem vindo ao meu Site de Portfólio.</h1>
-            
+            <img className='imgNotebook' src='pc.png' alt='Imagem de um notebook'/>
+            <h1 className='HomeTitle'>Bem vindo ao meu Site Portfólio.</h1>
         </div>
     );
 

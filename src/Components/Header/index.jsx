@@ -9,6 +9,7 @@ export function Header() {
     function myFunction() {
         if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
             document.querySelector(".Header").style = "position: static";
+            //document.querySelector(".Header").style.transition = "0.4s";
         } else {
             document.querySelector(".Header").style = "position: sticky";
         }
