@@ -51,9 +51,7 @@
   }
 
   @media only screen and (max-width: 905px) {
-    .Home{
-      height: 300px;
-    }
+    
     .imgNotebook{
       width: 200px;
       height: 250px;
@@ -69,9 +67,7 @@
   
 
   @media only screen and (max-width: 535px) {
-    .Home{
-      height: 300px;
-    }
+    
     .imgNotebook{
       width: 200px;
       height: 250px;
@@ -85,8 +81,9 @@
   }
   @media only screen and (max-width: 500px) {
     .Home{
-      height: 300px;
-     }
+      width: 100%;
+      height: 70vh;
+    }
     .imgNotebook{
       max-width:330px;
       max-height:330px;

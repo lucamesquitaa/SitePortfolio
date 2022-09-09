@@ -108,9 +108,7 @@
     .Technologies{
      max-height: 10px;   
     }
-    .ProfileContainer{
-        height: auto;
-    }
+    
     .ProfileContainer > h1{
         padding: 50px;
     }
