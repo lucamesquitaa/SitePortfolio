@@ -3,15 +3,14 @@
     height: 600px;
     display: flex;
     background-color: rgb(63, 62, 62);
-    
 }
 .HomeTitle{
     color: white;
-    font-size: 4.5rem;
+    font-size: 4.0rem;
+    align-self: center;
     font-weight: 700;
-    margin-top: 200px;
-    margin-left: -150px;
-    margin-right: 150px;
+    margin-left: -200px;
+    margin-right: 40px;
 }
 
 .HomeTitle::after {
@@ -22,9 +21,12 @@
     animation: blink .7s infinite;
   }
   .imgNotebook{
-    width: 1200px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    margin-top: 110px;
   }
+  
 
   @keyframes blink {
     0%, 100% {
@@ -35,3 +37,67 @@
     }
   }
 
+
+  @media only screen and (max-width: 1070px) {
+    .imgNotebook{
+      width: 60%;
+      height: 60%;
+
+    }
+    .HomeTitle{
+      font-size: 3.0rem;
+      font-weight: 500;
+    }
+  }
+
+  @media only screen and (max-width: 905px) {
+    .Home{
+      height: 300px;
+    }
+    .imgNotebook{
+      width: 200px;
+      height: 250px;
+      margin-top: 110px;
+    }
+    .HomeTitle{
+      margin-top: 30px;
+      font-size: 2.0rem;
+      font-weight: 400;
+    }
+  }
+
+  
+
+  @media only screen and (max-width: 535px) {
+    .Home{
+      height: 300px;
+    }
+    .imgNotebook{
+      width: 200px;
+      height: 250px;
+      margin-top: 110px;
+    }
+    .HomeTitle{
+      margin-top: 30px;
+      font-size: 2.0rem;
+      font-weight: 400;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .Home{
+      height: 300px;
+     }
+    .imgNotebook{
+      max-width:330px;
+      max-height:330px;
+      width: auto;
+      height: auto;
+      margin-top: 60px;
+    }
+    .HomeTitle{
+      font-size: 1.6rem;
+      font-weight: 400;
+      margin-left: -150px;
+      margin-right: 5px;
+    }
+  }

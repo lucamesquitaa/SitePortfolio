@@ -1,5 +1,6 @@
 .Header{
     position: sticky;
+    transition: all .3s;
     top: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -29,4 +30,38 @@
 .Header ul li a {
     text-decoration: none;
     color: #fff;
+}
+@media only screen and (max-width: 905px) {
+    .Header h1{
+        font-size: 1.5rem;
+        margin-top: 30px;
+    }
+    .Header ul li{
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 535px) {
+    .Header h1{
+        font-size: 1.1rem;
+        margin-top: 30px;
+    }
+    .Header ul li{
+        font-size: 0.7rem;
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .Header{
+        height: 50px;
+    }
+    .Header h1{
+        font-size: 0.9rem;
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .Header ul {
+        display: none;
+    }
 }

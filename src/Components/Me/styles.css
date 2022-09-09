@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    flex:1;
+}
+.Me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+    margin-top: 3px;
+    height: 70vh;
+    background-color: rgb(181, 181, 181);
+    
+}
+.containerMe{
+    background-color: rgb(181, 181, 181);
+}
+.contact{
+    text-align: center;
+}
+.contact img{
+    padding: 30px;
+    width: 80px;
+    height: 80px;
+}
+.imgMe{
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    margin: auto;
+    border-radius: 15px;
+}
+.MeTitle{
+    
+}
+.MeText{
+    text-align: center;
+    vertical-align: top;  
+    margin: auto;
+    max-width: 700px;
+}
+.MeText p{
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 905px) {
+    .MeTitle{
+    font-size: 2.0rem;
+      font-weight: 400;
+    }
+    .imgMe{
+        width: 200px;
+        height: 200px;
+    }
+    .MeText p{
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .Me{
+        height: auto;
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .MeTitle{
+        font-size: 1.6rem;
+    }
+    .imgMe{
+        order: 2;
+        max-width:120px;
+        max-height:120px;
+        width: auto;
+        height: auto;
+        margin-top: 60px;
+    }
+    .MeText {
+        order: 3;
+        font-size: 0.9rem;
+        height: auto;
+        margin-bottom: 60px;
+    }
+    .contact img{
+        padding: 10px;
+        width: 50px;
+        height: 50px;
+    }
+}
