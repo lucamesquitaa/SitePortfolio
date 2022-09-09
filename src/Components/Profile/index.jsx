@@ -3,21 +3,17 @@ import './styles.css';
 
 export function Profile() {
     const Ids = [
-        "Java",
+        "Net",
         "React",
         "Csharp",
-        "Html",
-        "Css",
-        "JavaScript"
+        "Kotlin"
     ];
-    var paragrafo1 = "a";
+    var paragrafo1 = "Clique na tecnologia para exibir um texto";
     const data = {
-        "React": "a",
-        "Css": "d",
-        "Html": "g",
-        "Csharp": "j",
-        "Java": "m",
-        "JavaScript": "p",
+        "React": "Despois de aprender HTML, CSS e JavaScript 'puro' parti para os estudos do React por conta própria.",
+        "Csharp": "Estudo C# desde o inicio da minha faculdade em 2019, pois foi a linguagem de programação escolhida pela PUC Minas.",
+        "Net": "Tive uma experiência de 1 ano de estágio em que aprendi e utilizei o .NET para construção de API's REST.",
+        "Kotlin": "Estudei Kotlin para desenvolver um aplicativo nativo próprio no android"
     }
     function handleTransform(id, box){
         handleTransformIcon(id, box);
@@ -45,16 +41,12 @@ export function Profile() {
 
     return(
         <div className='ProfileContainer'>
-            <h1>Meu Perfil</h1>
+            <h1>Principais tecnologias</h1>
             <div className='boxOfImgs'>
                         <img src='csharp.png' id='Csharp' alt='icon Csharp'  onClick={() => handleTransform('Csharp', 'titleTechnologies')}/>
+                        <img src='net.png' id='Net' alt='.Net icon' onClick={() => handleTransform("Net", "titleTechnologies")}/>
                         <img src='React.png' id='React' alt='icon React'  onClick={() => handleTransform("React", "titleTechnologies")}/>
-                        <img src='java.png' id='Java' alt='Java icon' onClick={() => handleTransform("Java", "titleTechnologies")}/>
-                        <img src='html.png' id='Html' alt='icon HTML'  onClick={() => handleTransform("Html", "titleTechnologies")}/>
-                        <img src='css.png' id='Css' alt='CSS icon' onClick={() => handleTransform("Css", "titleTechnologies")}/>
-                        <img src='js.png' id='JavaScript' alt='JavaScript icon' onClick={() => handleTransform("JavaScript", "titleTechnologies")}/>
-                        
-                        
+                        <img src='kotlin.png' id='Kotlin' alt='icon Kotlin'  onClick={() => handleTransform("Kotlin", "titleTechnologies")}/>
             </div>
             <div className='Profile'>
                 <div className='Technologies'>

@@ -21,8 +21,8 @@ export function Header() {
             <ul>
                 <li><a href=''>Home</a></li>
                 <li><a href=''>Perfil</a></li>
+                <li><a href=''>Tecnologias</a></li>
                 <li><a href=''>Projetos</a></li>
-                <li><a href=''>Contato</a></li>
             </ul>
         </div>
     );
