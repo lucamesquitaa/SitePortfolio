@@ -1,2 +1,2 @@
 # LINK: https://lucamesquitaa.herokuapp.com/
-Site Portfólio - Luca Mesquita
+Site Portfólio feito em React - Luca Mesquita
